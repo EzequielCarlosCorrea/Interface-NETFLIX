@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: #141414;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 64px;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  
+.header-logo{
+    color:#E50914;
+    font-family:'Arial Balck', Times;
+    font-size: 40px;
+    margin-left: 5px; 
+    
+  }
+  
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin: 10px;
+}
+
+header nav a:hover{
+ color: #fff;
+}
+
+
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px  30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao :hover{
+    background-color: white;
+    color: black;
+}
+
+.botao{
+    margin-right: 5px ;
+}
+
+.filme-principal{
+  background: url(img/mentindo.png);
+  width: auto;
+  height: 500px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.filme-principal .container{
+ margin: 3px;
+}
+
+.titulo{
+    color: #E50914;
+    margin: 15px;
+    font-size: 20px ;
+}
+.carousel{
+ align-items: center;
+ padding-top: 15px;
+ margin: 15px ;
+ 
+}
+
+
+
+.lista{
+
+    color:white;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.series{
+    color:white;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.filmes{
+    color:white;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.item{
+    margin: 5px;
+    padding: 0;
+}
